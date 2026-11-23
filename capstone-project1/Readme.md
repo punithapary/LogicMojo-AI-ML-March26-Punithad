@@ -69,3 +69,7 @@ ROC-AUC	Add actual result
 Also identify which model produced these results and whether they came from the validation set or the final test set.
 Conclusion
 This project demonstrates the use of traditional Machine Learning and a Deep Learning experiment for financial fraud detection. The models are compared using metrics suited to an imbalanced classification problem. The results provide an experimental foundation for further fraud detection work. Additional validation using real-world financial data and operational requirements would be needed before production deployment.
+
+Run the app by executing the below command in the command prombt
+
+py -m streamlit run app/app.py
